@@ -1,0 +1,20 @@
+:root { color-scheme: dark; --bg: #0c0a16; --surface: #16122a; --text: #f3eefc; --dim: #a39cb8; --gold: #f2c35a; --soft: #ffd987; --violet: #9d7bff; --line: #2a2342; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, "SF Pro Text", "Segoe UI", system-ui, sans-serif; max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; line-height: 1.7; color: var(--text);
+  background: radial-gradient(ellipse 70% 40% at 50% 0%, rgba(157,123,255,.18), transparent 70%), var(--bg); background-attachment: fixed; min-height: 100vh; }
+a { color: var(--soft); }
+h1 { font-size: 1.75rem; font-weight: 800; margin: 0 0 .35rem; line-height: 1.25; }
+h2 { font-size: 1.05rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin: 2rem 0 .5rem; color: var(--gold); }
+p, li { margin: .35rem 0; }
+ul { padding-inline-start: 1.2rem; }
+.muted { color: var(--dim); font-size: .9rem; }
+.brand { display: inline-flex; align-items: center; gap: .75rem; margin-bottom: 1.75rem; color: inherit; text-decoration: none; }
+.brand img { width: 2.8rem; height: 2.8rem; border-radius: 22%; box-shadow: 0 0 24px rgba(242,195,90,.45); }
+.brand span { display: flex; flex-direction: column; line-height: 1.1; }
+.brand b { font-size: 1.45rem; letter-spacing: .14em; color: var(--gold); }
+.brand small { font-size: .72rem; font-weight: 700; letter-spacing: .22em; color: var(--dim); }
+.lede { font-size: 1.1rem; color: var(--dim); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 1rem 1.2rem; margin: .8rem 0; }
+.card strong { color: var(--soft); letter-spacing: .06em; }
+nav a { margin-inline-end: 1rem; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
